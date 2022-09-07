@@ -1,4 +1,41 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* navbar styling */
+
+nav {
+  position: sticky;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  position: relative;
+  top: 20px;
+  right: 50px;
+}
+nav li {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  padding: 16px;
+}
+nav button {
+  position: relative;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 30px;
+  width: 150px;
+  height: 50px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg) translateY(-2px);
 }
